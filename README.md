@@ -1,16 +1,21 @@
-# newswithme
+# 📰 Flutter News App
 
-A new Flutter project.
+A simple and modern Flutter news application using [NewsAPI](https://newsapi.org). Built with Dio for efficient API calls.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- Live news from NewsAPI
+- News by category
+- Slider headlines (TechCrunch, etc.)
+- Dio for networking
+- Clean UI with reusable widgets
 
-A few resources to get you started if this is your first Flutter project:
+## 📸 Screenshots
+<!-- Add your screenshots here -->
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🔧 Getting Started
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/flutter-news-app.git
+   cd flutter-news-app
