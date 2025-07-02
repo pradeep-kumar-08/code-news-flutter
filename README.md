@@ -1,4 +1,4 @@
-# 📰 Flutter News App
+# 📰 Flutter News App "CodeNews"
 
 A simple and modern Flutter news application using [NewsAPI](https://newsapi.org). Built with Dio for efficient API calls.
 
