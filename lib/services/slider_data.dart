@@ -51,14 +51,14 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:newswithme/models/slider_model.dart'; 
+import 'package:newswithme/models/slider_model.dart';
 
 class Sliders {
   List<SliderModel> sliders = [];
 
   Future<void> getSlider() async {
     String url =
-    // Top headlines from TechCrunch right now
+        // Top headlines from TechCrunch right now
         "https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=bea76415935f491490874527358f6b3c";
     var response = await http.get(Uri.parse(url));
     print(
